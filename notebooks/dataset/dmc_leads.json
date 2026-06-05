@@ -1,0 +1,3404 @@
+{
+  "conversations": [
+    {
+      "id": "lead_001",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero aprender Power BI, mi jefe me dijo que si lo manejo bien me suben el sueldo."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_002",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto gana un data scientist en Perú? Quiero cambiar de área para ganar más."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_003",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy como analista financiero y quiero aprender Python para que me paguen mejor."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_004",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi colega que estudió aquí consiguió un aumento. ¿Qué curso me recomiendas?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_005",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero pasar de 3000 a 5000 soles, ¿es posible con sus cursos?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_006",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto tiempo tarda en verse el retorno de la inversión de sus programas?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_007",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Trabajo en marketing y quiero aprender analytics para pedir aumento."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_008",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen testimonios de gente que haya conseguido trabajo mejor pagado?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_009",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy contador y quiero pasar a datos para ganar el doble."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_010",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿El diploma de data science mejora el perfil para negociar sueldo?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_011",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero aprender Power BI, mi jefe me dijo que si lo manejo bien me suben el sueldo."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_012",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto gana un data scientist en Perú? Quiero cambiar de área para ganar más."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_013",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy como analista financiero y quiero aprender Python para que me paguen mejor."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_014",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi colega que estudió aquí consiguió un aumento. ¿Qué curso me recomiendas?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_015",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero pasar de 3000 a 5000 soles, ¿es posible con sus cursos?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_016",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto tiempo tarda en verse el retorno de la inversión de sus programas?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_017",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Trabajo en marketing y quiero aprender analytics para pedir aumento."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_018",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen testimonios de gente que haya conseguido trabajo mejor pagado?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_019",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy contador y quiero pasar a datos para ganar el doble."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_020",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿El diploma de data science mejora el perfil para negociar sueldo?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_021",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero aprender Power BI, mi jefe me dijo que si lo manejo bien me suben el sueldo."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_022",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto gana un data scientist en Perú? Quiero cambiar de área para ganar más."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_023",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy como analista financiero y quiero aprender Python para que me paguen mejor."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_024",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi colega que estudió aquí consiguió un aumento. ¿Qué curso me recomiendas?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_025",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero pasar de 3000 a 5000 soles, ¿es posible con sus cursos?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_026",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto tiempo tarda en verse el retorno de la inversión de sus programas?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_027",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Trabajo en marketing y quiero aprender analytics para pedir aumento."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_028",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen testimonios de gente que haya conseguido trabajo mejor pagado?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_029",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy contador y quiero pasar a datos para ganar el doble."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_030",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿El diploma de data science mejora el perfil para negociar sueldo?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_031",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero aprender Power BI, mi jefe me dijo que si lo manejo bien me suben el sueldo."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_032",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto gana un data scientist en Perú? Quiero cambiar de área para ganar más."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_033",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy como analista financiero y quiero aprender Python para que me paguen mejor."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_034",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi colega que estudió aquí consiguió un aumento. ¿Qué curso me recomiendas?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_035",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero pasar de 3000 a 5000 soles, ¿es posible con sus cursos?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_036",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto tiempo tarda en verse el retorno de la inversión de sus programas?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_037",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Trabajo en marketing y quiero aprender analytics para pedir aumento."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_038",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen testimonios de gente que haya conseguido trabajo mejor pagado?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_039",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy contador y quiero pasar a datos para ganar el doble."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_040",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿El diploma de data science mejora el perfil para negociar sueldo?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"salary\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación salary detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_041",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero cambiar de carrera, actualmente soy contador y quiero ser data analyst."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_042",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy en recursos humanos y quiero especializarme en people analytics."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"people-analytics\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_043",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero entrar al mundo de la inteligencia artificial, ¿por dónde empiezo?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_044",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Tengo 5 años en finanzas y quiero agregar habilidades de datos a mi perfil."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_045",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero ser data engineer, ¿qué camino me recomiendan?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-engineer\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_046",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me gustaría especializarme en machine learning para trabajar en una startup."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_047",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy QA y quiero migrar a data science, ¿tienen algo para mi perfil?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_048",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuál es el programa que más me abre puertas en el mercado laboral peruano?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_049",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy recién egresado y quiero especializarme en datos desde cero."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_050",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero hacer una transición de administración a inteligencia artificial."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_051",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero cambiar de carrera, actualmente soy contador y quiero ser data analyst."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_052",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy en recursos humanos y quiero especializarme en people analytics."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"people-analytics\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_053",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero entrar al mundo de la inteligencia artificial, ¿por dónde empiezo?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_054",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Tengo 5 años en finanzas y quiero agregar habilidades de datos a mi perfil."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_055",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero ser data engineer, ¿qué camino me recomiendan?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-engineer\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_056",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me gustaría especializarme en machine learning para trabajar en una startup."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_057",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy QA y quiero migrar a data science, ¿tienen algo para mi perfil?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_058",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuál es el programa que más me abre puertas en el mercado laboral peruano?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_059",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy recién egresado y quiero especializarme en datos desde cero."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_060",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero hacer una transición de administración a inteligencia artificial."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_061",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero cambiar de carrera, actualmente soy contador y quiero ser data analyst."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_062",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy en recursos humanos y quiero especializarme en people analytics."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"people-analytics\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_063",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero entrar al mundo de la inteligencia artificial, ¿por dónde empiezo?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_064",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Tengo 5 años en finanzas y quiero agregar habilidades de datos a mi perfil."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_065",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero ser data engineer, ¿qué camino me recomiendan?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-engineer\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_066",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me gustaría especializarme en machine learning para trabajar en una startup."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_067",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy QA y quiero migrar a data science, ¿tienen algo para mi perfil?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_068",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuál es el programa que más me abre puertas en el mercado laboral peruano?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_069",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy recién egresado y quiero especializarme en datos desde cero."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_070",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero hacer una transición de administración a inteligencia artificial."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_071",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero cambiar de carrera, actualmente soy contador y quiero ser data analyst."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_072",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy en recursos humanos y quiero especializarme en people analytics."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"people-analytics\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_073",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero entrar al mundo de la inteligencia artificial, ¿por dónde empiezo?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_074",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Tengo 5 años en finanzas y quiero agregar habilidades de datos a mi perfil."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_075",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero ser data engineer, ¿qué camino me recomiendan?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-engineer\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_076",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me gustaría especializarme en machine learning para trabajar en una startup."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_077",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy QA y quiero migrar a data science, ¿tienen algo para mi perfil?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_078",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuál es el programa que más me abre puertas en el mercado laboral peruano?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_079",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy recién egresado y quiero especializarme en datos desde cero."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_080",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero hacer una transición de administración a inteligencia artificial."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"growth\", \"score\": \"warm\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación growth detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_081",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi empresa me pidió que me certifique en Azure, es un requisito para el área."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"azure-data-engineering\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_082",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "El área de TI de donde trabajo necesita que todos aprendamos Power BI."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_083",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi jefe me dijo que si no aprendo Python me cambian de área."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_084",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "La empresa donde trabajo quiere implementar IA y necesito liderarla."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"ia-ejecutivos\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_085",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen facturación a empresa? Lo pregunto porque mi empleador pagaría."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-engineer\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_086",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Necesito aprender N8N para automatizar procesos en mi trabajo."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"n8n-chatbots-especializacion\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_087",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "El área de RRHH de mi empresa quiere hacer analytics de personas."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"people-analytics\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_088",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me pidieron desarrollar chatbots para el área de soporte."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diseno-chatbots-python\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_089",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Tengo plazo de 2 meses para certificarme en datos, es un requisito."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_090",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi empresa exige que el área de finanzas maneje Power BI."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_091",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi empresa me pidió que me certifique en Azure, es un requisito para el área."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"azure-data-engineering\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_092",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "El área de TI de donde trabajo necesita que todos aprendamos Power BI."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_093",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi jefe me dijo que si no aprendo Python me cambian de área."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_094",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "La empresa donde trabajo quiere implementar IA y necesito liderarla."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"ia-ejecutivos\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_095",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen facturación a empresa? Lo pregunto porque mi empleador pagaría."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-engineer\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_096",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Necesito aprender N8N para automatizar procesos en mi trabajo."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"n8n-chatbots-especializacion\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_097",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "El área de RRHH de mi empresa quiere hacer analytics de personas."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"people-analytics\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_098",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me pidieron desarrollar chatbots para el área de soporte."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diseno-chatbots-python\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_099",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Tengo plazo de 2 meses para certificarme en datos, es un requisito."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_100",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi empresa exige que el área de finanzas maneje Power BI."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_101",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi empresa me pidió que me certifique en Azure, es un requisito para el área."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"azure-data-engineering\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_102",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "El área de TI de donde trabajo necesita que todos aprendamos Power BI."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_103",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi jefe me dijo que si no aprendo Python me cambian de área."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_104",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "La empresa donde trabajo quiere implementar IA y necesito liderarla."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"ia-ejecutivos\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_105",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen facturación a empresa? Lo pregunto porque mi empleador pagaría."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-engineer\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_106",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Necesito aprender N8N para automatizar procesos en mi trabajo."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"n8n-chatbots-especializacion\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_107",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "El área de RRHH de mi empresa quiere hacer analytics de personas."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"people-analytics\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_108",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me pidieron desarrollar chatbots para el área de soporte."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diseno-chatbots-python\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_109",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Tengo plazo de 2 meses para certificarme en datos, es un requisito."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_110",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi empresa exige que el área de finanzas maneje Power BI."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_111",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi empresa me pidió que me certifique en Azure, es un requisito para el área."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"azure-data-engineering\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_112",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "El área de TI de donde trabajo necesita que todos aprendamos Power BI."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_113",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi jefe me dijo que si no aprendo Python me cambian de área."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_114",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "La empresa donde trabajo quiere implementar IA y necesito liderarla."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"ia-ejecutivos\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_115",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen facturación a empresa? Lo pregunto porque mi empleador pagaría."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-engineer\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_116",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Necesito aprender N8N para automatizar procesos en mi trabajo."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"n8n-chatbots-especializacion\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_117",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "El área de RRHH de mi empresa quiere hacer analytics de personas."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"people-analytics\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_118",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me pidieron desarrollar chatbots para el área de soporte."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diseno-chatbots-python\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_119",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Tengo plazo de 2 meses para certificarme en datos, es un requisito."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_120",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Mi empresa exige que el área de finanzas maneje Power BI."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"company_requirement\", \"score\": \"hot\", \"recommended_program\": \"power-bi-especializacion\", \"justification\": \"Motivación company_requirement detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_121",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy estudiando ingeniería y quiero complementar con data science."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_122",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me interesa la IA por curiosidad, quiero entender cómo funciona."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"ia-ejecutivos\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_123",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Vi un video sobre machine learning y me pareció interesante."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_124",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero aprender Python aunque sea lo básico."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_125",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen cursos para alguien que recién empieza?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_126",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy universitario y quiero aprender algo de datos en mis tiempos libres."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_127",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuál es la diferencia entre data analyst y data scientist?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_128",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me gusta la estadística y quiero ver si tiene aplicación práctica."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_129",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy en mi último año de universidad y quiero especializarme."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_130",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero entender qué es el machine learning sin tener experiencia previa."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_131",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy estudiando ingeniería y quiero complementar con data science."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_132",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me interesa la IA por curiosidad, quiero entender cómo funciona."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"ia-ejecutivos\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_133",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Vi un video sobre machine learning y me pareció interesante."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_134",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero aprender Python aunque sea lo básico."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_135",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen cursos para alguien que recién empieza?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_136",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy universitario y quiero aprender algo de datos en mis tiempos libres."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_137",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuál es la diferencia entre data analyst y data scientist?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_138",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me gusta la estadística y quiero ver si tiene aplicación práctica."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_139",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy en mi último año de universidad y quiero especializarme."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_140",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero entender qué es el machine learning sin tener experiencia previa."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_141",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy estudiando ingeniería y quiero complementar con data science."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_142",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me interesa la IA por curiosidad, quiero entender cómo funciona."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"ia-ejecutivos\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_143",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Vi un video sobre machine learning y me pareció interesante."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_144",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero aprender Python aunque sea lo básico."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_145",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen cursos para alguien que recién empieza?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_146",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy universitario y quiero aprender algo de datos en mis tiempos libres."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_147",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuál es la diferencia entre data analyst y data scientist?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_148",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me gusta la estadística y quiero ver si tiene aplicación práctica."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_149",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy en mi último año de universidad y quiero especializarme."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_150",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero entender qué es el machine learning sin tener experiencia previa."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_151",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy estudiando ingeniería y quiero complementar con data science."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_152",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me interesa la IA por curiosidad, quiero entender cómo funciona."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"ia-ejecutivos\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_153",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Vi un video sobre machine learning y me pareció interesante."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_154",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero aprender Python aunque sea lo básico."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_155",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen cursos para alguien que recién empieza?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_156",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Soy universitario y quiero aprender algo de datos en mis tiempos libres."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_157",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuál es la diferencia entre data analyst y data scientist?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_158",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me gusta la estadística y quiero ver si tiene aplicación práctica."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_159",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Estoy en mi último año de universidad y quiero especializarme."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_160",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero entender qué es el machine learning sin tener experiencia previa."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"academic\", \"score\": \"cold\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación academic detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_161",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Hola, ¿qué cursos tienen?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_162",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Vi su publicidad en Instagram."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_163",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Un amigo me recomendó este lugar."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_164",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto cuestan sus programas?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_165",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero algo relacionado con tecnología."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_166",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen modalidad virtual?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_167",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Necesito un certificado."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_168",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto dura el diploma de data science?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_169",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me recomendaron que aprenda datos."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_170",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuál es el mejor curso para empezar?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_171",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Hola, ¿qué cursos tienen?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_172",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Vi su publicidad en Instagram."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_173",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Un amigo me recomendó este lugar."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_174",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto cuestan sus programas?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_175",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero algo relacionado con tecnología."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_176",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen modalidad virtual?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_177",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Necesito un certificado."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_178",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto dura el diploma de data science?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_179",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me recomendaron que aprenda datos."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_180",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuál es el mejor curso para empezar?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_181",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Hola, ¿qué cursos tienen?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_182",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Vi su publicidad en Instagram."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_183",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Un amigo me recomendó este lugar."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_184",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto cuestan sus programas?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_185",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero algo relacionado con tecnología."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_186",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen modalidad virtual?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_187",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Necesito un certificado."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_188",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto dura el diploma de data science?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_189",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me recomendaron que aprenda datos."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_190",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuál es el mejor curso para empezar?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_191",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Hola, ¿qué cursos tienen?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_192",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Vi su publicidad en Instagram."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_193",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Un amigo me recomendó este lugar."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_194",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto cuestan sus programas?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_195",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Quiero algo relacionado con tecnología."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-ia-developer\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_196",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Tienen modalidad virtual?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_197",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Necesito un certificado."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-analyst\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_198",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuánto dura el diploma de data science?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"warm\", \"recommended_program\": \"diploma-data-scientist\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_199",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Me recomendaron que aprenda datos."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    },
+    {
+      "id": "lead_200",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Eres un clasificador de leads para DMC Institute. Dado un mensaje de usuario, responde SOLO con JSON: {\"motivation\": \"growth|salary|company_requirement|academic|undefined\", \"score\": \"hot|warm|cold\", \"recommended_program\": \"<slug>\", \"justification\": \"<1 oración>\"}"
+        },
+        {
+          "role": "user",
+          "content": "¿Cuál es el mejor curso para empezar?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"motivation\": \"undefined\", \"score\": \"cold\", \"recommended_program\": \"membresia-datapro\", \"justification\": \"Motivación undefined detectada en el mensaje.\"}"
+        }
+      ]
+    }
+  ]
+}
