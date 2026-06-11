@@ -42,7 +42,6 @@ Un pipeline generativo multimodal estructurado en 4 notebooks:
 | `00_exploracion.ipynb` | Exploración de arquitecturas de IA Generativa y experimentos de prompt engineering sobre modelos pre-entrenados de HuggingFace |
 | `01_finetuning.ipynb` | Dataset de 200+ conversaciones de calificación de leads DMC + fine-tuning de Qwen2.5-7B-Instruct con Unsloth/LoRA |
 | `02_image_generation.ipynb` | Pipeline de generación de imágenes con FLUX.1-schnell (Diffusers) para tarjetas visuales de recomendación de cursos |
-| `03_pipeline_integrado.ipynb` | Pipeline end-to-end integrado: mensaje del usuario → clasificación de intención → recomendación → imagen del curso + comparativa de resultados + estimación de ROI |
 
 ---
 
@@ -104,37 +103,63 @@ Adapter LoRA exportado
 
 ### Requisitos
 - Cuenta de Google con acceso a Google Colab
-- GPU T4 (mínimo) o A100 (recomendado para Plan B)
+- GPU T4 (16GB, mínimo) o A100 (40GB, recomendado)
+- Token de HuggingFace (`HF_TOKEN`) con acceso a modelos gated (necesario para `02_image_generation.ipynb`)
 
 ### Pasos
 
-**1. Generar el dataset (local — no requiere GPU):**
+**1. Clonar el repositorio y subir a Google Drive (o usar directamente en Colab):**
 ```bash
-cd notebooks/dataset
-python generate_dataset.py
-# Genera: dmc_leads.json (200 ejemplos)
+git clone <url-del-repo>
 ```
 
-**2. Subir a Colab y ejecutar en orden:**
-```
-00_exploracion.ipynb      → no requiere outputs previos
-01_finetuning.ipynb       → requiere dmc_leads.json subido a /content/
-02_image_generation.ipynb → no requiere outputs previos
-03_pipeline_integrado.ipynb → requiere outputs/lora_adapter/ y image_generator.py
-```
+**2. Abrir cada notebook en Google Colab con GPU habilitada:**
+En Colab: `Entorno de ejecución → Cambiar tipo de entorno de ejecución → GPU (T4 o A100)`
+
+---
+
+#### `00_exploracion.ipynb`
+- No requiere outputs previos ni archivos adicionales.
+- Instala sus dependencias automáticamente en la primera celda.
+
+#### `01_finetuning.ipynb` — Fine-tuning con Unsloth/LoRA
+- Instala sus dependencias automáticamente en la primera celda.
+- Requiere el dataset `notebooks/dataset/dmc_leads.json` (ya incluido en el repo). Si subes el notebook solo, también sube la carpeta `dataset/` al mismo directorio en Colab.
+- **Opcional:** para publicar el adapter en HuggingFace Hub, agrega `HF_TOKEN` en Colab Secrets (`Herramientas → Secrets`).
+- Genera en `outputs/`:
+  - `lora_adapter/` — adapter LoRA exportado
+  - `base_vs_finetuned.png` — gráfica comparativa
+
+#### `02_image_generation.ipynb` — Generación de imágenes con Diffusers
+- Instala sus dependencias automáticamente en la primera celda.
+- Requiere `HF_TOKEN` con acceso al modelo `ByteDance/SDXL-Lightning`. Configúralo en la celda de login o en Colab Secrets.
+- No depende de outputs del notebook anterior.
+- Genera en `outputs/images/`:
+  - Una imagen `.png` por cada uno de los 12 programas DMC
+  - `catalogo_completo.png` — grilla con todos los programas
+  - `hyperparams_steps_comparison.png` y `seeds_comparison.png` — experimentos
 
 ---
 
 ## Conclusiones y Posibles Mejoras Futuras
 
 ### Conclusiones
-- El fine-tuning con Unsloth/LoRA sobre un dataset de dominio específico debería permitir al modelo clasificar motivaciones con mayor precisión que el prompting estándar, reduciendo errores de formato y alucinaciones
-- La integración de un generador de imágenes (Diffusers) enriquece la recomendación de cursos con contenido visual personalizado, agregando una dimensión multimodal al pipeline
-- El caso de uso de DMC Institute permite validar el pipeline en un contexto de negocio real, con métricas concretas de conversión y ROI estimable
+
+**Fine-tuning (01_finetuning.ipynb):**
+- El fine-tuning con Unsloth/LoRA (r=16) sobre 200 ejemplos en una T4 tomó 355s (~6 min) y redujo el loss de ~2.0 a 0.0721 en 3 epochs
+- Solo el 0.92% de los parámetros fueron entrenables (40M de 7.6B), lo que confirma la eficiencia de QLoRA para adaptación de dominio
+- El modelo base ya respondía JSON válido en 5/5 casos, pero clasificaba incorrectamente motivación y score en 2/5. El modelo fine-tuned corrigió estos errores, logrando clasificación correcta en los 5 casos de prueba
+- El mayor beneficio del fine-tuning no fue el formato (el base ya lo cumplía) sino la precisión semántica: distingue correctamente `company_requirement` vs `growth`, y calibra mejor el score `hot/warm/cold`
+
+**Generación de imágenes (02_image_generation.ipynb):**
+- SDXL-Lightning (ByteDance, 4 pasos) genera imágenes de 1024×1024 con coherencia visual suficiente para tarjetas de recomendación de cursos
+- Con `num_inference_steps=4`, la calidad es notablemente superior a 1-2 pasos sin costo adicional significativo en T4
+- Seeds distintos producen composiciones variadas pero coherentes con el prompt, lo que permite seleccionar la mejor variante sin re-prompt
 
 ### Mejoras Futuras
 - Aumentar el dataset a 1000+ ejemplos con conversaciones multi-turno para mejorar el comportamiento conversacional del agente
-- Integrar RAG con los brochures reales de DMC (S3 + embeddings) para que las respuestas estén fundamentadas en documentos oficiales
-- Fine-tunear el modelo de imágenes con imágenes reales de los programas DMC usando DreamBooth
+- Evaluar el fine-tuned en un conjunto de validación separado (actualmente solo se evalúa en 5 casos de prueba incluidos en el entrenamiento)
+- Integrar RAG con los brochures reales de DMC (S3 + embeddings) para fundamentar las respuestas en documentos oficiales
+- Fine-tunear el modelo de imágenes con imágenes reales de los programas DMC usando DreamBooth o LoRA de imagen
 - Desplegar el pipeline como agente conversacional embebible en dmc.pe (FastAPI + Next.js)
 - Evaluar modelos más pequeños (3B) para reducir latencia y costo en producción
